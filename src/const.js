@@ -36,7 +36,6 @@ export const INFO_NUMBER_TYPES = [
   'currmovenumber',
   'hashfull',
   'nps',
-  'wdl',
   'tbhits',
   'cpuload',
   'multipv',

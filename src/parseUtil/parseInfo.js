@@ -15,6 +15,9 @@ export default function parseInfo(line) {
           value: parseFloat(parsed[2]),
         }
         break
+      case 'wdl':
+        info[key] = parsed[1].split(' ').map(v => parseInt(v));
+        break;
       default:
         if (INFO_NUMBER_TYPES.includes(key)) {
           info[key] = parseFloat(parsed[1])
