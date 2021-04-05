@@ -15,7 +15,7 @@ export const REGEX = {
     currmovenumber: /\bcurrmovenumber (\d+)/,
     hashfull: /\bhashfull (\d+)/,
     nps: /\bnps (\d+)/,
-    wdl: /\bwdl (\d+)/,
+    wdl: /\bwdl (?:((?:\d+)(?:\S+) (?:\d+) (?:\d+)))/,
     tbhits: /\btbhits (\d+)/,
     cpuload: /\bcpuload (\d+)/,
     score: /\bscore (cp|mate|lowerbound|upperbound) (-?\d+)/,
